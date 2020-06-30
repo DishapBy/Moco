@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452eac86-e1c2-4c4a-84aa-49732ca881bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/services/creative.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services/digital.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services/house.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services/seo.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services/watch.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/services/web.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/devices/background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/devices/phone.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/section/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/section/about_1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/section/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/section/about_2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/section/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/section/about_3.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,6 +40,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\devices" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\services" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\section" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images" />
@@ -62,7 +56,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593108214551</updated>
-      <workItem from="1593108215637" duration="35406000" />
+      <workItem from="1593108215637" duration="39147000" />
     </task>
     <servers />
   </component>

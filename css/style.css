@@ -223,6 +223,12 @@ h1, h2, h3, h4, h5, h6 {
     padding: 80px 0;
 }
 
+.section--devices{
+    background: url("../images/devices/background.jpg") center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
 .section__header{
     width: 100%;
     max-width: 950px;
@@ -374,4 +380,23 @@ h1, h2, h3, h4, h5, h6 {
 .service__text{
     font-size: 15px;
     color: #999
+}
+
+/*Devices*/
+.devices{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.devices__item{
+    display: block;
+}
+
+.devices__item--phone{
+    position: absolute;
+    bottom: -80px;
+    right: 0;
+    z-index: 1;
 }
