@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452eac86-e1c2-4c4a-84aa-49732ca881bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/devices/background.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/devices/phone.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/wedo/wedo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -36,14 +35,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\reviews" />
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\wedo" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\devices" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\services" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\section" />
-      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -56,7 +57,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593108214551</updated>
-      <workItem from="1593108215637" duration="39147000" />
+      <workItem from="1593108215637" duration="41271000" />
+      <workItem from="1593624222968" duration="10215000" />
     </task>
     <servers />
   </component>
