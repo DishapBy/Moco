@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452eac86-e1c2-4c4a-84aa-49732ca881bd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/logo/logo1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/logo2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/logo3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/logo4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/logo5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/logo/logo6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/team2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/team/team3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/works/background-team.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
@@ -48,11 +41,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\works" />
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\logo" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\team" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\reviews" />
-      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\wedo" />
-      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\devices" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -70,7 +63,7 @@
       <workItem from="1593733612286" duration="2000" />
       <workItem from="1593733625494" duration="4000" />
       <workItem from="1593814523683" duration="14812000" />
-      <workItem from="1593886413125" duration="12233000" />
+      <workItem from="1593886413125" duration="23989000" />
     </task>
     <servers />
   </component>
@@ -86,6 +79,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="722" y="152" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1593123544746" />
+    <state x="862" y="100" width="581" height="630" maximized="true" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog" timestamp="1594074316306">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="862" y="100" width="581" height="630" maximized="true" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594074316306" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1593378925464">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

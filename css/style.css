@@ -233,6 +233,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0;
 }
 
+.section--clients {
+    background-color: gainsboro;
+}
+
 .section__header {
     width: 100%;
     max-width: 950px;
@@ -277,10 +281,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .card__item {
     width: 380px;
-
 }
 
-.card__inner{
+.card__inner {
     background-color: turquoise;
     position: relative;
 }
@@ -323,18 +326,18 @@ h1, h2, h3, h4, h5, h6 {
     transition: opacity .2s linear;
 }
 
-.cart__info{
+.cart__info {
     margin-top: 20px;
     text-align: center;
 }
 
-.cart__name{
+.cart__name {
     font-size: 14px;
     text-transform: uppercase;
     margin-bottom: 5px;
 }
 
-.cart__prof{
+.cart__prof {
     color: #999999;
     font-size: 15px;
     font-style: italic;
@@ -511,16 +514,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .review__item {
-    padding-left: 205px;
+    padding-left: 255px;
     position: relative;
 }
 
 .reviews__photo {
     position: absolute;
+    /*border-radius: 50%;*/
     top: 0;
     left: 0;
     z-index: 1;
-    border: 2px solid #95e1d3;
+    /*border: 2px solid #95e1d3;*/
 }
 
 .review__text {
@@ -537,7 +541,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #333333;
 }
 
-.reviews__author:before{
+.reviews__author:before {
     content: "";
     display: inline-block;
     vertical-align: middle;
@@ -547,7 +551,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 10px;
 }
 
-.reviews__btn{
+.reviews__btn {
     font-size: 0;
     color: transparent;
     position: absolute;
@@ -556,7 +560,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: translateY(-50%);
 }
 
-.reviews__btn:after{
+.reviews__btn:after {
     content: "";
     display: block;
     width: 16px;
@@ -570,7 +574,7 @@ h1, h2, h3, h4, h5, h6 {
     transform: rotate(-45deg)
 }
 
-.reviews__btn--next{
+.reviews__btn--next {
     right: 0;
     transform: rotate(135deg)
 }
@@ -578,12 +582,12 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Social*/
 
-.social{
+.social {
     display: flex;
     justify-content: center;
 }
 
-.social__item{
+.social__item {
     width: 55px;
     height: 55px;
     background-color: yellow;
@@ -599,21 +603,133 @@ h1, h2, h3, h4, h5, h6 {
     color .1s linear;
 }
 
-.social__item:last-child{
+.social__item:last-child {
     border-right: 0;
 }
 
-.social__item:hover{
+.social__item:hover {
     background-color: #f36566;
-    color:white;
+    color: white;
 }
 
 /*Logo*/
-.logos{
+.logos {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
-.logos__item{
+/*Works*/
+.works {
+    display: flex;
+}
 
+.works__col {
+    flex: 1 1 0;
+}
+
+.works__item {
+    position: relative;
+
+    background: linear-gradient(to bottom, #f38181, #fce38a);
+}
+
+.works__item:hover .works__image {
+    opacity: .1;
+}
+
+.works__item:hover .works__info {
+    opacity: 1;
+}
+
+.works__image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    transition: opacity .2s linear;
+}
+
+.works__info {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    transform: translate3d(0, -50%, 0);
+    opacity: 0;
+    transition: opacity .2s linear;
+}
+
+.works__title {
+    margin-bottom: 5px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.works__text {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+/*Clients*/
+
+.clients {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 70px;
+}
+
+.clients__item {
+    width: 50%;
+    padding: 0 45px 0 175px;
+    position: relative;
+    margin-bottom: 60px;
+}
+
+.clients__photo {
+    width: 110px;
+    height: 110px;
+    position: absolute;
+    top: 0;
+    left: 40px;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+.clients__name {
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.clients__prof {
+    font-size: 15px;
+    color: #333333;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.clients__text {
+    font-size: 15px;
+    color: #999999;
+}
+
+.clients__text:before {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: #f36566;
+    margin: 15px 0;
+}
+
+
+.section--clients {
+    background: url("../images/works/background-team.jpg") no-repeat;
+    background-size: cover;
 }
