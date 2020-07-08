@@ -638,6 +638,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: .1;
 }
 
+/*При наведении что желает элемент*/
 .works__item:hover .works__info {
     opacity: 1;
 }
