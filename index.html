@@ -8,34 +8,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
           integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
-    <script src="testJs.js"></script>
+    <script src="js/testJs.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
     <title>Moco</title>
 </head>
 
 
 <body>
-<header class="header">
+<header class="header" id="header">
     <div class="container">
         <div class="header__inner">
-            <div class="header__logo">MoCo</div>
-            <nav class="nav">
-                <a class="nav__link active" href="#">About</a>
-                <a class="nav__link" href="#">Service</a>
-                <a class="nav__link" href="#">Blog</a>
-                <a class="nav__link" href="#">Work</a>
-                <a class="nav__link" href="#">Contact</a>
-                <a class="nav__link" href="#">
-                    <i class="fas fa-shopping-cart"></i>
-                </a>
-                <a class="nav__link" href="#">
-                    <i class="fas fa-search"></i>
-                </a>
+            <div class="header__logo" data-scroll="#intro">MoCo</div>
+            <nav class="nav" id="nav">
+                <a class="nav__link active" href="#" data-scroll="#about">About</a>
+                <a class="nav__link" href="#" data-scroll="#services">Service</a>
+                <a class="nav__link" href="#" data-scroll="#blog">Blog</a>
+                <a class="nav__link" href="#" data-scroll="#works">Work</a>
+                <a class="nav__link" href="#" data-scroll="#footer">Contact</a>
             </nav>
+
+            <button class="nav-toggle" id="nav__toggle" type="button">
+                <span class="nav-toggle__item">Menu</span>
+            </button>
         </div>
     </div>
 </header>
+
 <div class="page">
-    <div class="intro">
+    <!--    Intro-->
+    <div class="intro" id="intro">
         <div class="container">
             <div class="intro__inner">
                 <h2 class="intro_suptitle">Creative Template</h2>
@@ -72,7 +73,8 @@
         </div>
     </div>
 
-    <section class="section">
+    <!--    About-->
+    <section class="section" id="about">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">What we do</h3>
@@ -116,6 +118,7 @@
         </div>
     </section>
 
+    <!--    Statistics-->
     <div class="statistics">
         <div class="container">
             <div class="stat">
@@ -143,7 +146,8 @@
         </div>
     </div>
 
-    <section class="section">
+    <!--Services-->
+    <section class="section" id="services">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">What we do</h3>
@@ -199,6 +203,7 @@
     </section>
     <!--Close div container-->
 
+    <!--    Devices-->
     <section class="section section--devices">
         <div class="container">
             <div class="section__header">
@@ -214,6 +219,7 @@
     </section>
     <!--Close Devices-->
 
+    <!--    Wedo-->
     <section class="section">
         <div class="container">
 
@@ -232,12 +238,12 @@
                 </div>
                 <div class="wedo__item">
                     <div class="accordion">
-                        <div class="accordion__item">
+                        <div class="accordion__item" data-collapse="#wedo_1">
                             <div class="accordion__header">
                                 <img class="accordion__icon" src="./images/services/creative.jpg" alt="">
                                 <div class="accordion__title">Photograph</div>
                             </div>
-                            <div class="accordion_content">
+                            <div class="accordion_content" id="wedo_1">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -247,12 +253,12 @@
                             </div>
                         </div>
 
-                        <div class="accordion__item active">
+                        <div class="accordion__item active" data-collapse="#wedo_2">
                             <div class="accordion__header">
                                 <img class="accordion__icon" src="./images/services/digital.jpg" alt="">
                                 <div class="accordion__title">Creativity</div>
                             </div>
-                            <div class="accordion_content">
+                            <div class="accordion_content" id="wedo_2">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -262,12 +268,12 @@
                             </div>
                         </div>
 
-                        <div class="accordion__item">
+                        <div class="accordion__item" data-collapse="#wedo_3">
                             <div class="accordion__header">
                                 <img class="accordion__icon" src="./images/services/web.jpg" alt="">
                                 <div class="accordion__title">Web Design</div>
                             </div>
-                            <div class="accordion_content">
+                            <div class="accordion_content" id="wedo_3">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
                                     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
                                     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
@@ -282,25 +288,56 @@
         </div>
     </section>
 
+    <!--    Reviews 1-->
     <div class="section section--grey">
         <div class="container">
+
             <div class="reviews">
-                <a class="reviews__btn reviews__btn--prev" href="#">Prev</a>
-                <a class="reviews__btn reviews__btn--next" href="#">Next</a>
-                <div class="review__item">
-                    <img class="reviews__photo" src="./images/reviews/reviews_photo.jpg" alt="">
-                    <div class="review__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
+                <div data-slider>
+                    <div class="review__item">
+                        <div>
+                            <img class="reviews__photo" src="./images/reviews/reviews_photo.jpg" alt="">
+                            <div class="review__text">
+                                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="reviews__author">
+                                Jon Doe
+                            </div>
+                        </div>
                     </div>
-                    <div class="reviews__author">
-                        Jon Doe
+
+                    <div class="review__item">
+                        <div>
+                            <img class="reviews__photo" src="./images/reviews/reviews_photo.jpg" alt="">
+                            <div class="review__text">
+                                2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="reviews__author">
+                                Jon Doe
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="review__item">
+                        <div>
+                            <img class="reviews__photo" src="./images/reviews/reviews_photo.jpg" alt="">
+                            <div class="review__text">
+                                3. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="reviews__author">
+                                Jon Doe
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--    Team-->
     <section class="section">
         <div class="container">
             <div class="section__header">
@@ -410,6 +447,7 @@
         </div> <!--    Container end-->
     </section>
 
+    <!--    Logos-->
     <div class="section section--grey">
         <div class="container">
             <div class="logos">
@@ -435,7 +473,8 @@
         </div>
     </div>
 
-    <section class="section">
+    <!--    Works-->
+    <section class="section" id="works">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">What we can</h3>
@@ -510,25 +549,43 @@
         </div> <!--Works-->
     </section>
 
+    <!--    Reviews 2-->
     <div class="section">
         <div class="container">
             <div class="reviews">
-                <a class="reviews__btn reviews__btn--prev" href=#"">Prev</a>
-                <a class="reviews__btn reviews__btn--next" href=#"">Next</a>
-                <div class="review__item">
-                    <img class="reviews__photo" src="./images/works/avatar.jpg" alt="">
-                    <div class="review__text">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua.
+
+                <div data-slider>
+                    <div>
+                        <div class="review__item">
+                            <img class="reviews__photo" src="./images/works/avatar.jpg" alt="">
+                            <div class="review__text">
+                                1. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="reviews__author">
+                                Jon Doe
+                            </div>
+                        </div>
                     </div>
-                    <div class="reviews__author">
-                        Jon Doe
+
+                    <div>
+                        <div class="review__item">
+                            <img class="reviews__photo" src="./images/works/avatar.jpg" alt="">
+                            <div class="review__text">
+                                2. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua.
+                            </div>
+                            <div class="reviews__author">
+                                Jon Doe
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!--    Clients-->
     <section class="section section--clients">
         <div class="container">
             <div class="section__header">
@@ -589,7 +646,8 @@
         </div> <!--    container-->
     </section>
 
-    <section class="section">
+    <!--    Blog-->
+    <section class="section" id="blog">
         <div class="container">
             <div class="section__header">
                 <h3 class="section__suptitle">Our stories</h3>
@@ -688,6 +746,7 @@
         </div> <!--  End container-->
     </section>
 
+    <!--    Map-->
     <section class="section section--map">
         <div class="container">
             <div class="map">
@@ -699,7 +758,8 @@
         </div>
     </section>
 
-    <footer class="footer">
+    <!--    Footer-->
+    <footer class="footer" id="footer">
         <div class="container">
             <div class="footer__inner">
                 <div class="footer_col footer_col--first">
@@ -807,5 +867,9 @@
 
     </footer>
 </div> <!--Page-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="js/App.js"></script>
 </body>
 </html>

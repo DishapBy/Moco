@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="452eac86-e1c2-4c4a-84aa-49732ca881bd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/testJs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testJs.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +43,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\js" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\logo" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\inst" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\map" />
       <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\blog" />
-      <recent name="C:\Users\XIAOMi\WebstormProjects\Moco\images\works" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -63,7 +66,7 @@
       <workItem from="1593733625494" duration="4000" />
       <workItem from="1593814523683" duration="14812000" />
       <workItem from="1593886413125" duration="30974000" />
-      <workItem from="1594252848465" duration="34654000" />
+      <workItem from="1594252848465" duration="59476000" />
     </task>
     <servers />
   </component>
@@ -83,10 +86,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="862" y="100" width="581" height="630" maximized="true" key="com.intellij.history.integration.ui.views.SelectionHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1594074316306" />
-    <state x="809" y="190" key="run.anything.popup" timestamp="1594483059449">
+    <state x="809" y="190" key="run.anything.popup" timestamp="1594853857385">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594483059449" />
+    <state x="809" y="190" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1594853857385" />
     <state x="814" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1594741643005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
