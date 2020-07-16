@@ -1,3 +1,3 @@
 "# Moco" 
 
-template on html and css
+Landing page on html, css and js.
