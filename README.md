@@ -2,4 +2,4 @@
 
 Landing page on html, css, jQuery.
 
-https://project-moco.firebaseapp.com/
+https://dishapby.github.io/Moco/
